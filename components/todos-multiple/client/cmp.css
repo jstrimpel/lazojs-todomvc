@@ -1,0 +1,7 @@
+#header, #main, #footer {
+    border: 5px solid #000;
+}
+
+#main {
+    border-color: #ff0000;
+}
