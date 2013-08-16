@@ -1,4 +1,4 @@
-define(['s!snapCtl'], function (Ctl){
+define(['s!lazoCtl'], function (Ctl){
 
     'use strict';
 

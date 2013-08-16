@@ -7,7 +7,7 @@ define(function () {
         css: ['/app/client/base.css'],
 
         initialize: function (callback) {
-            SNAP.app.addRoutes({
+            LAZO.app.addRoutes({
                 '':             { component: 'todos-single' },
                 'multiple(/)':  { component: 'todos-multiple' },
                 'single(/)':    { component: 'todos-single' },

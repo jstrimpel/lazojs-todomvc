@@ -6,7 +6,7 @@ allowing a developer to write once, run anywhere.
 
 ## !important If You Read Anything Read this Section
 
--> **_DO NOT PUSH ANY CHANGES TO THIS REPO._** <-
+**_DO NOT PUSH ANY CHANGES TO THIS REPO._**
 
 Please note that these examples are written within the context of TodoMVC and certain aspects of the implementations
 would not be the same outside of this context. For example, when filtering the todo list one would likely send back
@@ -26,9 +26,6 @@ would be easier to compare to other library and framework examples.
   route handler references the last layout rendered then only the "body" component is rendered
   on the client. An application can aslo specify a default layout outside of the route definitions.
 * **components/hello:** This is strictly used to visualize the concept of a layout.
-
-The framework, Lazojs, was called Snap! internally until the recently. You will see Snap! references throughout the
-code please replace these with Lazojs in your mind as you read - Snap! is to Lazojs as Lazojs is to Snap!
 
 This will not run without starting Lazojs (yet to be released) and pointing it to the repo. The current intent of
 this example is to illustrate how an application would be structured using Lazojs in a familiar context, TodoMVC.

@@ -1,8 +1,8 @@
-define(['snapSyncher', 'fs'], function (SnapSyncher, fs) {
+define(['lazoSyncher', 'fs'], function (LazoSyncher, fs) {
 
     'use strict';
 
-    var todosPath = SNAP.app._paths.FILE_REPO_PATH + '/models/tmp/todos.json';
+    var todosPath = LAZO.app._paths.FILE_REPO_PATH + '/models/tmp/todos.json';
 
     // Generate four random hex digits.
     function S4() {
@@ -58,7 +58,7 @@ define(['snapSyncher', 'fs'], function (SnapSyncher, fs) {
         return todos;
     }
 
-    return SnapSyncher.extend({
+    return LazoSyncher.extend({
 
         fetch: function (options) {
             options.success(findTodo(getTodos(), options));

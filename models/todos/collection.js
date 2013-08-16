@@ -1,4 +1,4 @@
-define(['snapCollection', 'models/todo/model'], function (Collection, Model) {
+define(['lazoCollection', 'models/todo/model'], function (Collection, Model) {
 
     'use strict';
 

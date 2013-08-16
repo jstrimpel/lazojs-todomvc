@@ -1,4 +1,4 @@
-define(['s!snapView'], function (View) {
+define(['s!lazoView'], function (View) {
 
     'use strict';
 

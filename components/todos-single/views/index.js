@@ -1,4 +1,4 @@
-define(['s!snapCollectionView'], function (View) {
+define(['s!lazoCollectionView'], function (View) {
 
     'use strict';
 

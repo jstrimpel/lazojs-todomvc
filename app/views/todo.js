@@ -1,4 +1,4 @@
-define(['snapView'], function (View) {
+define(['lazoView'], function (View) {
 
     'use strict';
 
@@ -33,7 +33,7 @@ define(['snapView'], function (View) {
             this.listenTo(this.model, 'change', function () {
                 this.$checkbox.prop('checked', this.model.get('completed'));
                 this.$el.toggleClass(this.attributes()['class']);
-                SNAP.app.trigger('todo-change');
+                LAZO.app.trigger('todo-change');
             });
         },
 

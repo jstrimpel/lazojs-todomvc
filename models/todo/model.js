@@ -1,4 +1,4 @@
-define(['snapModel'], function (Model) {
+define(['lazoModel'], function (Model) {
 
    return Model.extend({
 
