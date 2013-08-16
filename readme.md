@@ -1,8 +1,13 @@
 # Lazojs TodoMVC Example
 
-Lazojs is a client-server JavaScript web framework. The name is derived from the Spanish word lazo which means to link.
-The goal of Lazojs is to provide a "link" between application views, models, and logic between the client and server truly
-allowing a developer to write once, run anywhere.
+Lazojs is a full stack client-server web framework based on Backbone, Requirejs, and Handlebars.
+
+The name is derived from the Spanish word LAZO which means link. 
+
+The goal of Lazojs is to provide a ‘link’ between the client and server for application views, models, and business
+logic allowing developer to create complex applications with ease.
+
+It is being used to power the internal business tools to support the redesign and launch of walmart.com US.
 
 ## !important If You Read Anything Read this Section
 
