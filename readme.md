@@ -6,6 +6,8 @@ allowing a developer to write once, run anywhere.
 
 ## !important If You Read Anything Read this Section
 
+**DO NOT PUSH ANY CHANGES TO THIS REPO.**
+
 Please note that these examples are written within the context of TodoMVC and certain aspects of the implementations
 would not be the same outside of this context. For example, when filtering the todo list one would likely send back
 up the filtered subset of data as opposed to the entire result set. The latter approach was taken so that these examples
