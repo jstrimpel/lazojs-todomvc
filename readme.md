@@ -6,7 +6,7 @@ allowing a developer to write once, run anywhere.
 
 ## !important If You Read Anything Read this Section
 
-<center style="color: #ff0000;">**_DO NOT PUSH ANY CHANGES TO THIS REPO._**</center>
+->**_DO NOT PUSH ANY CHANGES TO THIS REPO._**<-
 
 Please note that these examples are written within the context of TodoMVC and certain aspects of the implementations
 would not be the same outside of this context. For example, when filtering the todo list one would likely send back
