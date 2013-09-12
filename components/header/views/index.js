@@ -1,4 +1,4 @@
-define(['s!lazoView'], function (View) {
+define(['l!lazo/views/base'], function (View) {
 
     'use strict';
 
