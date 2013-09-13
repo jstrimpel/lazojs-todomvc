@@ -1,8 +1,8 @@
-define(function () {
+define(['base'], function (Base) {
 
     'use strict';
 
-    return {
+    return Base.extend({
 
         css: ['/app/client/base.css'],
 
@@ -21,6 +21,6 @@ define(function () {
             return callback();
         }
 
-    };
+    });
 
 });
