@@ -1,3 +1,5 @@
+# Example Directory Structure
+
 ```
 example-lazo-app/
     |-- app/
