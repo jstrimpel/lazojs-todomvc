@@ -8,6 +8,7 @@ example-lazo-app/
         |-- example-component/
             |-- client/ (optional; contains client only code)
             |-- views/ (contains Lazo views and templates)
+            |-- controller.js (optional)
     |-- models/
         |-- example-model/
             |-- server/ (optional if model is defined)
