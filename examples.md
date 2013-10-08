@@ -38,7 +38,7 @@ LAZO.app.addRoutes({
 ### Extending a Public Lazo Object
 ```javascript
 define(['lazoView'], function (LazoView) {
-    var MyView LazoView.extend({
+    var MyView = LazoView.extend({
         foo: 'i am an instance property on the view'
     }, {
         bar: 'i am a static property on the view'
