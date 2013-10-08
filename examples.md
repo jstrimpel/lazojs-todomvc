@@ -27,11 +27,18 @@ example-lazo-app/
 ### Example Route Definitions
 ```javascript
 LAZO.app.addRoutes({
-    '':                 'todos-single', // map route to a component string
-    'multiple(/)':      { component: 'todos-multiple' }, // map route to component object
-    'single/:id(/)':    { component: 'todos-single' }, // tokenized route
-    'layout(/)':        { component: 'main', layout: 'todos-layout' }, // map route to layout and component
-    'header(/)':        { component: 'header', layout: false } // do not use default layout
+    // executes the index method for the taffy component
+    '':                 'taffy',
+    // executes the zilly method for the klunk component
+    'muttley/':         'klunk#zilly',
+    // executes the index method for the rosemary component
+    'penrod(/)':        { component: 'rosemary' },
+    // executes the index method for the blinky component matching the path parameter id, e.g. http://server.com/inky/1
+    'inky/:id(/)':      'blinky',
+    // executes the index method for the mumbly component and applies the quacker layout
+    'snagglepuss(/)':   { component: 'mumbly', layout: 'quacker' },
+    // executes the index method for the magilla component without applying the default layout
+    'snuffles(/)':        { component: 'magilla', layout: false }
 });
 ```
 
