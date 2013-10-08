@@ -28,17 +28,17 @@ example-lazo-app/
 ```javascript
 LAZO.app.addRoutes({
     // executes the index method for the taffy component
-    '':                 'taffy',
+    '':               'taffy',
     // executes the zilly method for the klunk component
-    'muttley/':         'klunk#zilly',
+    'muttley/':       'klunk#zilly',
     // executes the index method for the rosemary component
-    'penrod(/)':        { component: 'rosemary' },
+    'penrod(/)':      { component: 'rosemary' },
     // executes the index method for the blinky component matching the path parameter id, e.g. http://server.com/inky/1
-    'inky/:id(/)':      'blinky',
+    'inky/:id(/)':    'blinky',
     // executes the index method for the mumbly component and applies the quacker layout
-    'snagglepuss(/)':   { component: 'mumbly', layout: 'quacker' },
+    'snagglepuss(/)': { component: 'mumbly', layout: 'quacker' },
     // executes the index method for the magilla component without applying the default layout
-    'snuffles(/)':        { component: 'magilla', layout: false }
+    'snuffles(/)':    { component: 'magilla', layout: false }
 });
 ```
 
