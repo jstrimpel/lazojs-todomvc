@@ -2,22 +2,26 @@
 
 ```
 example-lazo-app/
-    |-- app/
-        |-- client/ (optional; contains client only code)
-        |-- views/ (optional; application wide views and templates)
-        |-- application.js (required; main entry point for application)
+    |-- app/ (any resources that are shared across the app. should be placed here)
+        |-- client/ (OPTIONAL; contains client only code)
+        |-- server/ (OPTIONAL; contains server only code)
+        |-- views/ (OPTIONAL; application wide views and templates)
+        |-- application.js (REQUIRED; main entry point for application)
     |-- components/
         |-- example-component/
-            |-- client/ (optional; contains client only code)
-            |-- views/ (contains Lazo views and templates)
-            |-- controller.js (optional)
+            |-- client/ (OPTIONAL; contains client only code)
+            |-- server/ (OPTIONAL; contains server only code)
+            |-- views/ (REQUIRED; contains Lazo views and templates)
+                |-- index.js (OPTIONAL; default view object)
+                |-- index.hbs (REQUIRED; default template)
+            |-- controller.js (OPTIONAL)
     |-- models/
         |-- example-model/
-            |-- server/ (optional if model is defined)
-            |-- model.js (optional if syncher is defined)
+            |-- server/ (OPTIONAL if model is defined)
+            |-- model.js (OPTIONAL if syncher is defined)
         |-- example-collection/
-            |-- server/ (optional if collection is defined)
-            |-- collection.js (optional if syncher is defined)
+            |-- server/ (OPTIONAL if collection is defined)
+            |-- collection.js (OPTIONAL if syncher is defined)
 ```
 
 ### Example Route Definitions
@@ -28,5 +32,18 @@ LAZO.app.addRoutes({
     'single/:id(/)':    { component: 'todos-single' }, // tokenized route
     'layout(/)':        { component: 'main', layout: 'todos-layout' }, // map route to layout and component
     'header(/)':        { component: 'header', layout: false } // do not use default layout
+});
+```
+
+### Extending a Public Lazo Object
+```javascript
+define(['lazoView'], function (LazoView) {
+    var MyView LazoView.extend({
+        foo: 'i am an instance property on the view'
+    }, {
+        bar: 'i am a static property on the view'
+    });
+
+    return MyView;
 });
 ```
