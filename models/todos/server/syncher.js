@@ -1,4 +1,4 @@
-define(['lazo/server/syncher', 'fs'], function (LazoSyncher, fs) {
+define(['lazoSyncher', 'fs'], function (LazoSyncher, fs) {
 
     'use strict';
 

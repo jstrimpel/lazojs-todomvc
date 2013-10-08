@@ -1,4 +1,4 @@
-define(['lazo/model'], function (Model) {
+define(['lazoModel'], function (Model) {
 
    return Model.extend({
 
