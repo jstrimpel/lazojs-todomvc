@@ -29,10 +29,10 @@ would be easier to compare to other library and framework examples.
   of a parent component, components/todos-multiple, and three child components - components/header, components/main,
   components/footer.
 * **components/todos-layout:** This example further expands upon the reusable components concept and intrdocues a new
-  concept, layouts. A layout is a component that contains a component container with the reserved value "body". The
+  concept, layouts. A layout is a component that contains a component container with the reserved value "lazo-layout-body". The
   layout component is associated to route as a property in addition to the component property (see app/application.js).
-  The component associated with the route in question is rendered in the "body" component container. If an executed
-  route handler references the last layout rendered then only the "body" component is rendered
+  The component associated with the route in question is rendered in the "lazo-layout-body" component container. If an executed
+  route handler references the last layout rendered then only the "lazo-layout-body" component is rendered
   on the client. An application can aslo specify a default layout outside of the route definitions.
 * **components/hello:** This is strictly used to visualize the concept of a layout.
 
