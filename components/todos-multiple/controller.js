@@ -1,4 +1,4 @@
-define(['l!lazoController'], function (Ctl){
+define(['l!lazoCtl'], function (Ctl){
 
     'use strict';
 

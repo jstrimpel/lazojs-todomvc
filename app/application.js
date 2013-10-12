@@ -1,8 +1,8 @@
-define(function () {
+define(['lazoApp'], function (LazoApp) {
 
     'use strict';
 
-    return {
+    return LazoApp.extend({
 
         css: ['/app/client/base.css'],
 
@@ -21,6 +21,6 @@ define(function () {
             return callback();
         }
 
-    };
+    });
 
 });
