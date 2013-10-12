@@ -2,7 +2,7 @@ define(['lazoSyncher', 'fs'], function (LazoSyncher, fs) {
 
     'use strict';
 
-    var todosPath = LAZO.app._paths.FILE_REPO_PATH + '/models/tmp/todos.json',
+    var todosPath = LAZO.FILE_REPO_PATH + '/models/todos.json',
         getTodos;
 
     getTodos = function (options) {

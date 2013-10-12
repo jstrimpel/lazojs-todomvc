@@ -1,4 +1,4 @@
-define(['s!lazoCtl'], function (Ctl){
+define(['l!lazoCtl'], function (Ctl){
 
     'use strict';
 

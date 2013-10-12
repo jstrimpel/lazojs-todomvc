@@ -1,8 +1,8 @@
-define(['base'], function (Base) {
+define(['lazoApp'], function (LazoApp) {
 
     'use strict';
 
-    return Base.extend({
+    return LazoApp.extend({
 
         css: ['/app/client/base.css'],
 

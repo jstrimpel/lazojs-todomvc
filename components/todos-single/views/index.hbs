@@ -6,19 +6,19 @@
     <section id="main">
         <input id="toggle-all" type="checkbox">
         <label for="toggle-all">Mark all as complete</label>
-        <ul id="todo-list" data-collection-target="collection"></ul>
+        <ul id="todo-list" lazo-collection-target="collection"></ul>
     </section>
     <footer id="footer">
         <span id="todo-count"><strong>{{remaining}}</strong> item left</span>
         <ul id="filters">
             <li>
-                <a class="selected" href="?filter=all" data-lazo-navigate>All</a>
+                <a class="selected" href="?filter=all" lazo-navigate>All</a>
             </li>
             <li>
-                <a href="?filter=active" data-lazo-navigate>Active</a>
+                <a href="?filter=active" lazo-navigate>Active</a>
             </li>
             <li>
-                <a href="?filter=completed" data-lazo-navigate>Completed</a>
+                <a href="?filter=completed" lazo-navigate>Completed</a>
             </li>
         </ul>
         <button id="clear-completed">Clear completed ({{completed}})</button>

@@ -2,7 +2,7 @@ define(['lazoSyncher', 'fs'], function (LazoSyncher, fs) {
 
     'use strict';
 
-    var todosPath = LAZO.app._paths.FILE_REPO_PATH + '/models/tmp/todos.json';
+    var todosPath = LAZO.FILE_REPO_PATH + '/models/todos.json';
 
     // Generate four random hex digits.
     function S4() {
@@ -50,7 +50,7 @@ define(['lazoSyncher', 'fs'], function (LazoSyncher, fs) {
     }
 
     function save(todos) {
-        fs.writeFileSync(todosPath, JSON.stringify(todos), 'utf8')
+        fs.writeFileSync(todosPath, JSON.stringify(todos), 'utf8');
     }
 
     function destroy(todos, index) {
