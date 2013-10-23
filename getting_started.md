@@ -12,11 +12,11 @@ npm install -g lazo
 Next create a new application:
 
 ```shell
-lazo [create](#) application [target_directory/]application_directory_name
+lazo [create](#top) application [target_directory/]application_directory_name
 # omitting the target directory name will create the application directory in the cwd
 ```
 
-Finally [start](#) the new application:
+Finally [start](#top) the new application:
 
 ```shell
 lazo start [target_directory/]application_directory_name
