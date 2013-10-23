@@ -1,4 +1,4 @@
-define(['l!lazoCollectionView'], function (View) {
+define(['l!lazoCollectionView', 'l!jquery.validate'], function (View) {
 
     'use strict';
 
