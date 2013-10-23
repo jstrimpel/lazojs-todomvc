@@ -25,7 +25,7 @@ lazo start [target_directory/]application_directory_name
 You are done.
 
 To verify that the application is running open `http://localhost:8080` in a browser. You should
-see the following screen
+see the following:
 
 INSERT_SCREEN_SHOT_HERE
 
