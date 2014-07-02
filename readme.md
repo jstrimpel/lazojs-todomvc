@@ -36,9 +36,27 @@ would be easier to compare to other library and framework examples.
 
 ## Getting started
 
-* `npm install -g lazo`
-* `git clone git@github.com:jstrimpel/framework-todomvc.git`
-* `lazo start TODOMVC_REPO_PATH`
+To install Lazo execute the following command:
+
+```shell
+npm install -g --production lazo
+```
+
+Next clone [Lazo TodoMVC example](https://github.com/jstrimpel/lazojs-todomvc):
+
+```shell
+git clone git@github.com:jstrimpel/framework-todomvc.git
+```
+
+Finally start the new application:
+
+```shell
+lazo start TODOMVC_REPO_DIR
+```
+
+You are done.
+
+Open `http://localhost:8080` in a browser to verify that the application is running.
 
 ## Questions
 
