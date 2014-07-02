@@ -1,0 +1,50 @@
+{
+  "name": "lazo-todo-mvc",
+  "description": "Lazo TodoMVC",
+  "version": "0.1.0",
+  "homepage": "",
+  "private": true,
+  "author": {
+    "name": "Jason",
+    "email": "jstrimpel@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jstrimpel/framework-todomvc.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "grunt-contrib-requirejs": "0.4.x",
+    "requirejs": "2.1.x",
+    "clean-css": "2.1.x",
+    "grunt": "~0.4.1"
+  },
+  "devDependencies": {
+    "lodash": "2.4.x",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "gruntplugin",
+    "lazojs",
+    "lazo",
+    "TodoMVC"
+  ]
+}

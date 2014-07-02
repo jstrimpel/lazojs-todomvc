@@ -1,7 +1,9 @@
-#header, #main, #footer {
+[lazo-cmp-name="todos-multiple"] #header,
+[lazo-cmp-name="todos-multiple"] #main,
+[lazo-cmp-name="todos-multiple"] #footer {
     border: 5px solid #000;
 }
 
-#main {
+[lazo-cmp-name="todos-multiple"] #main {
     border-color: #ff0000;
 }
