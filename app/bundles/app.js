@@ -38,6 +38,7 @@ define('app/bundle',['lazoBundle'], function (LazoBundle) {
     // the bundled files' source.
     // return LazoBundle;
 
+    // uncomment to enable combo handling
     return LazoBundle.extend({
 
         response: function (route, uri, callback) {
