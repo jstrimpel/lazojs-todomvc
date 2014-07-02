@@ -1,7 +1,7 @@
 # Lazojs TodoMVC Example
 
-Lazo is a full stack client-server web framework based on Backbone, Requirejs, and Handlebars
-(default template engine; you can use whatever template engine you like :)).
+[Lazo](https://github.com/walmartlabs/lazojs) is a full stack client-server web framework based on Backbone,
+Requirejs, and Handlebars (default template engine; you can use whatever template engine you like :)).
 
 The name is derived from the Spanish word LAZO which means link. 
 
@@ -11,7 +11,7 @@ logic allowing developer to create complex applications with ease.
 * Lazo gives the front-end engineer 100% control over the UI layer.
 * Lazo is 100% SEO compliant.
 * Lazo has an optmized time to render.
-* Lazo is being used to power the internal business tools to support the redesign and launch of walmart.com US.
+* Lazo is being used to power the internal business tools [@WalmartLabs](http://www.walmartlabs.com).
 
 ## !important If You Read Anything Read this Section
 
@@ -36,8 +36,11 @@ would be easier to compare to other library and framework examples.
   on the client. An application can aslo specify a default layout outside of the route definitions.
 * **components/hello:** This is strictly used to visualize the concept of a layout.
 
-This will not run without starting Lazojs (yet to be released) and pointing it to the repo. The current intent of
-this example is to illustrate how an application would be structured using Lazojs in a familiar context, TodoMVC.
+## Getting started
+
+* `npm install -g lazo`
+* `git clone git@github.com:jstrimpel/framework-todomvc.git`
+* `lazo start TODOMVC_REPO_PATH`
 
 ## Questions
 

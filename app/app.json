@@ -1,0 +1,13 @@
+{
+    "routes": {
+        "":             { "component": "todos-single", "servers": ["primary", "another_server"] },
+        "multiple(/)":  { "component": "todos-multiple" },
+        "single(/)":    { "component": "todos-single" },
+        "layout(/)":    { "component": "main", "layout": "todos-layout" },
+        "header(/)":    { "component": "header" },
+        "main(/)":      { "component": "main" },
+        "footer(/)":    { "component": "footer" },
+        "hello(/)":     { "component": "hello", "layout": "todos-layout" }
+    },
+    "css": ["/app/client/base.css"]
+}
