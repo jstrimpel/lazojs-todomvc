@@ -15,8 +15,6 @@ logic allowing developer to create complex applications with ease.
 
 ## !important If You Read Anything Read this Section
 
-**_DO NOT PUSH ANY CHANGES TO THIS REPO._**
-
 Please note that these examples are written within the context of TodoMVC and certain aspects of the implementations
 would not be the same outside of this context. For example, when filtering the todo list one would likely send back
 up the filtered subset of data as opposed to the entire result set. The latter approach was taken so that these examples
@@ -49,13 +47,3 @@ Great. We are glad this has peaked your interest.
 There is alot going on behind the scenes that is not covered in this example.
 
 Please direct any questions to Jason Strimpel, [jstrimpel@walmartlabs](mailto:jstrimpel@walmartlabs).
-
-## Created By
-
-* Chi Ahrens
-* Crystal Barnes
-* Rodrigo Fernandez
-* Paul Knepper
-* Naga Malepati
-* Jason Strimpel
-* Anthony Tang
