@@ -1,3 +1,20 @@
+define('text',{load: function(id){throw new Error("Dynamic load not allowed: " + id);}});
+define('json',{load: function(id){throw new Error("Dynamic load not allowed: " + id);}});
+
+define("json!app/app.json", function(){ return {
+    "routes": {
+        "":             { "component": "todos-single", "servers": ["primary", "another_server"] },
+        "multiple(/)":  { "component": "todos-multiple" },
+        "single(/)":    { "component": "todos-single" },
+        "layout(/)":    { "component": "main", "layout": "todos-layout" },
+        "header(/)":    { "component": "header" },
+        "main(/)":      { "component": "main" },
+        "footer(/)":    { "component": "footer" },
+        "hello(/)":     { "component": "hello", "layout": "todos-layout" }
+    },
+    "css": ["/app/client/base.css"]
+};});
+
 define('app/application',['lazoApp'], function (LazoApp) {
 
     
@@ -353,7 +370,6 @@ define('app/views/todo',['lazoView'], function (View) {
     });
 
 });
-define('text',{load: function(id){throw new Error("Dynamic load not allowed: " + id);}});
 
 define('text!app/views/todo.hbs',[],function () { return '<div class="view">\n    <input class="toggle" type="checkbox" {{#if model.completed}}checked{{/if}}>\n    <label>{{model.title}}</label>\n    <button class="destroy"></button>\n</div>\n<input class="edit" value="{{model.title}}">';});
 

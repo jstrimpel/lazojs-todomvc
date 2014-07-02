@@ -45,6 +45,7 @@ module.exports = function (grunt) {
     // get the paths to include
     function getIncludes() {
         var files = grunt.file.expand([
+            'app/app.json',
             'app/**/*.js',
             'app/**/*.hbs',
             'components/**/*.js',
@@ -58,7 +59,9 @@ module.exports = function (grunt) {
 
             if (file.lastIndexOf('.hbs') !== -1) {
                 file = 'text!' + file;
-            } else {
+            } else if (file.lastIndexOf('.json') !== -1) {
+                file = 'json!' + file;
+            }else {
                 file = file.substr(0, file.lastIndexOf('.js'));
             }
 
