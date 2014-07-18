@@ -4,18 +4,6 @@
         "components": "components",
         "models": "models"
     },
-    "server": {
-        "instances": {
-            "another_server": {
-                "port": 9000,
-                "timeout": 30000,
-                "maxSockets": 500,
-                "monitor": {
-                    "on": false
-                }
-            }
-        }
-    },
     "client": {},
     "requirejs": {
         "shim": {

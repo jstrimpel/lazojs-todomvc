@@ -3,7 +3,7 @@
   "description": "Lazo TodoMVC",
   "version": "0.1.0",
   "homepage": "",
-  "private": true,
+  "private": false,
   "author": {
     "name": "Jason",
     "email": "jstrimpel@gmail.com"

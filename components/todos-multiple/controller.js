@@ -13,7 +13,7 @@ define(['l!lazoCtl'], function (Ctl){
                 params = this.ctx.params;
             this.options = options;
 
-            this.addChild('h-cmp', 'header', { // TODO: change names, e.g., hd-cmp
+            this.addChild('h-cmp', 'header', {
                 success: function (cmp) {
                     self.childLoaded();
                 },
