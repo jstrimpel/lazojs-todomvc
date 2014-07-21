@@ -9,8 +9,9 @@ define(['l!lazoCtl'], function (Ctl){
         cmpCount: 3, // # of child components to be loaded
 
         index: function (options) {
-            var self = this,
-                params = this.ctx.params;
+            var self = this;
+            var params = this.ctx.params;
+
             this.options = options;
 
             this.addChild('h-cmp', 'header', {
