@@ -7,9 +7,9 @@ define(['l!lazoCtl'], function (Ctl){
         index: function (options) {
             var self = this;
 
-            self.loadCollection('todos', {
+            this.loadCollection('todos', {
                 success: function (collection) {
-                    self.ctx.collections['todos'] = collection;
+                    self.ctx.collections.todos = collection;
                     options.success('index');
                 },
                 error: function (err) {
