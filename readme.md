@@ -33,6 +33,10 @@ would be easier to compare to other library and framework examples.
   route handler references the last layout rendered then only the "lazo-layout-body" component is rendered
   on the client. An application can aslo specify a default layout outside of the route definitions.
 * **components/hello:** This is strictly used to visualize the concept of a layout.
+* 
+
+### Routes setup
+* Set up your application routes in the [app/app.json](https://github.com/jstrimpel/lazojs-todomvc/blob/master/app/app.json#L2-L12)
 
 ## Getting started
 
